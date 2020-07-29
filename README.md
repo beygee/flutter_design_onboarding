@@ -2,6 +2,8 @@
 
 Flutter Design Challenge Using Flutter Hooks
 
+<img src="https://user-images.githubusercontent.com/7090906/88749695-cf32de00-d18e-11ea-8d25-ee8d6d0cc8bd.png" />
+
 ## Install
 
 ```shell
