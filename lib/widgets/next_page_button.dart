@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_design_onboarding/constants.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-class NextPageButton extends HookWidget {
+class NextPageButton extends StatelessWidget {
   final VoidCallback onPressed;
 
   NextPageButton({

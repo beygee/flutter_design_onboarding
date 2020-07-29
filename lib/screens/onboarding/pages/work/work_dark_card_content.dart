@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_design_onboarding/constants.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-class WorkDarkCardContent extends HookWidget {
+class WorkDarkCardContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(

@@ -4,7 +4,7 @@ import 'package:flutter_design_onboarding/screens/onboarding/widgets/icon_contai
 import 'package:flutter_hooks/flutter_hooks.dart';
 
 
-class WorkLightCardContent extends HookWidget {
+class WorkLightCardContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(

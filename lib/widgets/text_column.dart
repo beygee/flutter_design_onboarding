@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_design_onboarding/constants.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-class TextColumn extends HookWidget {
+class TextColumn extends StatelessWidget {
   final String title;
   final String text;
 

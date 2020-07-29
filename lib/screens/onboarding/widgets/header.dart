@@ -3,7 +3,7 @@ import 'package:flutter_design_onboarding/constants.dart';
 import 'package:flutter_design_onboarding/widgets/logo.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-class Header extends HookWidget {
+class Header extends StatelessWidget {
   final VoidCallback onSkip;
 
   Header({@required this.onSkip}) : assert(onSkip != null);

@@ -3,7 +3,7 @@ import 'package:flutter_design_onboarding/constants.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
 
-class EducationDarkCardContent extends HookWidget {
+class EducationDarkCardContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Icon(

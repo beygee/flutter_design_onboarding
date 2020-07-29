@@ -2,7 +2,6 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_design_onboarding/constants.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 
 class _OnboardingPageIndicatorPainter extends CustomPainter {
   final Color color;
@@ -23,7 +22,9 @@ class _OnboardingPageIndicatorPainter extends CustomPainter {
       ..strokeWidth = 4.0;
 
     canvas.drawArc(
-      Rect.fromCircle(center: Offset(size.width / 2, size.height / 2)),
+      Rect.fromCircle(
+          center: Offset(size.width / 2, size.height / 2),
+          radius: (size.shortestSide + 12) / 2),
       startAngle,
       indicatorLength,
       false,
@@ -38,11 +39,11 @@ class _OnboardingPageIndicatorPainter extends CustomPainter {
   }
 }
 
-class OnboardingPageIndicator extends HookWidget {
+class OnboardingPageIndicator extends StatelessWidget {
   final int currentPage;
   final Widget child;
 
-  OnboardingPageIndicator({
+  const OnboardingPageIndicator({
     @required this.currentPage,
     @required this.child,
   })  : assert(currentPage != null),

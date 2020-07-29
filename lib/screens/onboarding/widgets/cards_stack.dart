@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_design_onboarding/constants.dart';
-import 'package:flutter_hooks/flutter_hooks.dart';
 
-class CardsStack extends HookWidget {
+class CardsStack extends StatelessWidget {
   final int pageNumber;
   final Widget lightCardChild;
   final Widget darkCardChild;

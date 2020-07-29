@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_design_onboarding/screens/onboarding/widgets/cards_stack.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-class OnboardingPage extends HookWidget {
+class OnboardingPage extends StatelessWidget {
   final int number;
   final Widget lightCardChild;
   final Widget darkCardChild;

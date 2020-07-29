@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_design_onboarding/widgets/text_column.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-class WorkTextColumn extends HookWidget {
+class WorkTextColumn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextColumn(
