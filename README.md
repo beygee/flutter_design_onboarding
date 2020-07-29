@@ -1,4 +1,4 @@
-# flutter_design_onboarding
+# Flutter Design Challenge Onboarding
 
 Flutter Design Challenge Using Flutter Hooks
 
